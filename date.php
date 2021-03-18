@@ -16,9 +16,10 @@
     $day = $_POST["day"];
     $result =  $calender->Showdate($month, $day);
 
-    echo "<h1 id='result'>$result</h1> ";
 
     ?>
+    <h1 id='result'><?php echo $result; ?></h1>
+
 </body>
 
 </html>
